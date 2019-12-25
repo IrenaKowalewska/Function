@@ -11,8 +11,4 @@ const generateKey = (length, possible) => {
   return key;
 };
 
-const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
-const key = generateKey(16, characters);
-
-console.log(key);
-//module.exports = { generateKey };
+module.exports = { generateKey };
